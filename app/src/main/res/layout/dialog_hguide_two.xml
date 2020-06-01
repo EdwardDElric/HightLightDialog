@@ -1,21 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ly_hguide_root"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
 
     <com.fengdadong.hightlightguidedialog.hguide.HighLightGuideView
         android:id="@+id/hight_light_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
-
-    <ImageView
-        android:id="@+id/iv_hguide_tips"
-        android:layout_marginStart="6dp"
-        android:layout_marginBottom="11dp"
-        android:layout_alignParentBottom="true"
-        android:layout_width="168dp"
-        android:layout_height="124dp"
-        android:src="@mipmap/bg_d_hguide_home_refresh1"/>
 
 
 </RelativeLayout>
